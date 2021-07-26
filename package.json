@@ -1,0 +1,24 @@
+{
+  "name": "geojson",
+  "version": "1.0.0",
+  "description": "this a store locating application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "samiul khan",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "heroku": "^7.56.1",
+    "mongoose": "^5.13.3",
+    "node-geocoder": "^3.27.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
